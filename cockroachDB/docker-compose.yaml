@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  cockroachdb:
+    image: cockroachdb/cockroach:latest
+    environment:
+      COCKROACH_USER: my_user
+      COCKROACH_PASSWORD: my_password
+    ports:
+      - "26257:26257"
+    volumes:
+      - ./cockroachdb-data:/cockroach/cockroach-data
