@@ -3,20 +3,20 @@
 This project is a multi-service Dockerized application.
 
 ## Services
-cassandra
-cockroachDB
-elasticsearch
-keycloak
-mariaDB
-mongoDB
-mysql
-nginx
-oracle
-postgres
-rabbitMQ
-redis
-sqlserver
-wordPress
+1) Cassandra
+2) Cockroach DB
+3) Elastic Search
+4) Keycloak
+5) MariaDB
+6) MongoDB
+7) Mysql
+8) Nginx
+9) Oracle
+10) Postgres
+11) RabbitMQ
+12) Redis
+13) SQL server
+14) WordPress
 
 ## Getting Started
 
@@ -24,6 +24,6 @@ To start the Docker for any application navigate to the corresponding folder and
 
 docker-compose up
 or
-docker-compose up -d for starting in daemon mode that is background mode
+docker-compose up -d for starting in daemon mode 
 
-To stop the docker instance run : docker-compose down
+To stop the docker instance run: docker-compose down
