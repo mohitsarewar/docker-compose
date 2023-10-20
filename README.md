@@ -28,6 +28,12 @@ This project is a multi-service Dockerized repo.
 23) PHP
 24) Python
 25) Ubuntu
+26) Airflow
+27)	Celery
+28)	Grafana
+29)	Graylog
+30)	Memcached
+31)	Prometheus
     
 ## Getting Started
 

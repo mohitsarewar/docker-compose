@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  airflow:
+    image: apache/airflow:latest
+    environment:
+      AIRFLOW__CORE__FERNET_KEY: "This is a secret key"
+      AIRFLOW__CORE__LOAD_EXAMPLES: "True"
+    volumes:
+      - ./airflow:/usr/local/airflow
+    ports:
+      - "8080:8080"
