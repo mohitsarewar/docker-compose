@@ -17,7 +17,18 @@ This project is a multi-service Dockerized application.
 12) Redis
 13) SQL server
 14) WordPress
-
+15) Apache Httpd
+16) Apline
+17) Busy Box
+18) Centos
+19) Golang
+20) Hello World
+21) Node
+22) Open JDK
+23) PHP
+24) Python
+25) Ubuntu
+    
 ## Getting Started
 
 To start the Docker for any application navigate to the corresponding folder and run the following command:
