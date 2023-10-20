@@ -1,6 +1,6 @@
 # My Project
 
-This project is a multi-service Dockerized application.
+This project is a multi-service Dockerized repo.
 
 ## Services
 1) Cassandra
@@ -18,7 +18,7 @@ This project is a multi-service Dockerized application.
 13) SQL server
 14) WordPress
 15) Apache Httpd
-16) Apline
+16) Alpine
 17) Busy Box
 18) Centos
 19) Golang
@@ -31,7 +31,7 @@ This project is a multi-service Dockerized application.
     
 ## Getting Started
 
-To start the Docker for any application navigate to the corresponding folder and run the following command:
+To start any Docker application navigate to the corresponding folder and run the following command:
 
 docker-compose up
 or
